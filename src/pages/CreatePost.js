@@ -36,7 +36,7 @@ function CreatePost({isAuth}) {
         />
       </div>
       <div className='MandarPosts'>
-        <textarea placeholder='Desarrolla tu idea...' onChange={(event) => {
+        <textarea placeholder='Desarrolla tu Idea...' onChange={(event) => {
           setPostText(event.target.value);          
         }}
         />
